@@ -11,4 +11,8 @@ Vim and plaintext data files: http://briancarper.net/blog/552/
 
 If the columns are too wide (or too narrow) for the data you're viewing, you can change the tabstop with `set tabstop = 14`, for example.
 
+At launch, you can also adjust the tabstop with something like this:
+
+    vim "+set tabstop=30" data.tsv
+
 [listchars]: http://vimdoc.sourceforge.net/htmldoc/options.html#%27listchars%27
